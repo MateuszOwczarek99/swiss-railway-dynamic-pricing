@@ -1,10 +1,20 @@
 # Swiss Railway Dynamic Pricing
 
-Dynamic pricing system using reinforcement learning Deep Q-learning for Swiss railway tickets.
+This is project that is an end-to-end MLOps pipeline for dynamic pricing system using reinforcement learning Deep Q-learning for Swiss railway tickets.
 
-## Problem
+## problem
 
 Railways lose revenue with static pricing. We built an RL agent that learns optimal prices based on demand, time to departure, and competitor prices.
+
+## project structure
+
+├── src/
+│   ├── data/          # collection + cleaning
+│   ├── models/        # demand model + dqn agent
+│   └── api/           # fastapi server
+├── tests/             # unit tests
+├── k8s/               # kubernetes configs
+└── models/            # saved models
 
 ## fast start
 
