@@ -1,6 +1,6 @@
 # Swiss Railway Dynamic Pricing
 
-Dynamic pricing system using reinforcement learning (DQN) for Swiss railway tickets.
+Dynamic pricing system using reinforcement learning Deep Q-learning for Swiss railway tickets.
 
 ## Problem
 
