@@ -8,13 +8,16 @@ Railways lose revenue with static pricing. We built an RL agent that learns opti
 
 ## project structure
 
+```text
 ├── src/
 │   ├── data/          # collection + cleaning
-│   ├── models/        # demand model + dqn agent
-│   └── api/           # fastapi server
+│   ├── models/        # PPO agent + demand model
+│   └── api/           # FastAPI server
 ├── tests/             # unit tests
+├── docker/            # container config
 ├── k8s/               # kubernetes configs
-└── models/            # saved models
+└── notebooks/         # analysis
+```
 
 ## fast start
 
